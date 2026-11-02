@@ -1,4 +1,4 @@
-
+import ReviewForm from '../components/ReviewForm';
 import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
@@ -27,6 +27,7 @@ const Index = () => {
         <LocationsMap />
         <FAQ />
         <Testimonials />
+        <ReviewForm />
         <ContactSection />
         
       </main>
