@@ -39,7 +39,7 @@ export default function ReviewForm() {
       <section className="py-16 px-4 text-center" style={{ fontFamily: 'Cerebri Sans Book, sans-serif' }}>
         <div className="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center">
           <h3 className="text-xl font-semibold text-gray-900 mb-2">Thank you for your review!</h3>
-          <p className="text-sm text-gray-500 mb-4">Your feedback has been submitted for approval.</p>
+          <p className="text-base text-gray-600 mb-4">Your feedback has been submitted for approval.</p>
           <button 
             onClick={() => setSubmitted(false)} 
             className="px-6 py-2 bg-[#D4AF37] text-white rounded-lg text-sm hover:bg-[#C49A45] transition"
@@ -54,7 +54,8 @@ export default function ReviewForm() {
   return (
     <section className="py-16 px-4 text-center" style={{ fontFamily: 'Cerebri Sans Book, sans-serif' }}>
       <h2 className="text-3xl font-bold mb-2 text-gray-900">Leave a Review</h2>
-      <p className="text-gray-600 mb-8">Share your experience with Tiffany Sparkles with our community.</p>
+      {/* Subtitle font size increased here */}
+      <p className="text-lg text-gray-600 mb-8">Share your experience with Tiffany Sparkles with our community.</p>
 
       <form onSubmit={handleSubmit} className="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center relative">
         
