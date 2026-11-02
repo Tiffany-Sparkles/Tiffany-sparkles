@@ -92,7 +92,7 @@ export default function ReviewForm() {
             required 
             value={customer_name} 
             onChange={(e) => setCustomerName(e.target.value)} 
-            placeholder="Your Name (e.g. Brian Mwangi)" 
+            placeholder="Your Name" 
             className="w-full text-sm font-semibold text-gray-900 bg-gray-50 px-4 py-3 rounded-lg border border-transparent focus:border-amber-400 focus:bg-white focus:outline-none transition text-center"
           />
         </div>
