@@ -39,7 +39,7 @@ export default function ReviewForm() {
       <section className="py-16 px-4 text-center pb-40">
         <div className="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center">
           <h3 className="text-xl font-semibold text-gray-900 mb-2">Thank you for your review!</h3>
-          <p className="text-base text-gray-600 mb-4">Your feedback has been submitted for approval.</p>
+          <p className="text-base text-gray-600 mb-4">Your feedback has been submitted.</p>
           <button 
             onClick={() => setSubmitted(false)} 
             className="px-6 py-2 bg-[#D4AF37] text-white rounded-lg text-sm hover:bg-[#C49A45] transition"
