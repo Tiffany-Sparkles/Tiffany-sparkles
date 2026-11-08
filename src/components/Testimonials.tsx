@@ -28,7 +28,7 @@ const Testimonials = () => {
   const fetchTestimonials = async () => {
     try {
       const { data, error } = await (supabase as any)
-        .from("testimonials")
+        .from("src/components/ReviewForm.tsx")
         .select("*")
         .eq("is_active", true)
         .order("created_at", { ascending: false })
